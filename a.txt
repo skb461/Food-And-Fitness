@@ -1,0 +1,34 @@
+name
+email
+username
+dob
+gender
+phn_no
+
+
+bmi
+
+	blue 18.5 <
+ 	green 18.5 - 24.6
+	yellow 24.7 - 29.5
+	red 29.5 >
+
+bld_sgr
+	
+	blue 2.6 <
+	green 2.6 - 8.2
+	yellow  8.3 - 10
+	red 11 >
+
+bld_psr
+
+	blue l < 60 && h < 90
+	green l < 80 && h < 125
+	red l >= 80 && h>= 125
+
+
+	
+
+hi<90 low<60
+90<hi<125 60<low<80
+hi>=125 low>=80
